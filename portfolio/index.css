@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+ }
+/* navbar*/
+.navbar{
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    background-color:azure;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px;
+}
+
+.navbar ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1 rem;
+    font-weight: bold; 
+   }
+   .navbar ul li a{
+    text-decoration:none;
+    color:deeppink;
+    padding: 8px;
+    transition:all .5s ease ;
+}
+.navbar ul li a:hover{
+    background-color: aquamarine;
+    color:black;
+    box-shadow:0 0 10px ;
+
+}
+.h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+/* Home section */
+#home{
+    display:flex;
+    flex-direction: column;
+    background-color:crimson;
+    background-repeat: no-repeat ;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    color:blue;
+
+}
+#home::before{
+ content:"" ;
+ position:absolute;
+ top:0;
+ right: 0;
+ background-color:aqua ;
+ height:900px;
+ width:100%;
+ z-index:-1;
+ opacity: .8;
+}
+.main{
+    display:flex;
+     flex-direction: column;
+    /* border: 1px solid red;*/
+     align-items: center;
+     position: absolute;
+     top:30%;
+     right:10%;
+}
+.headings{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding:10px 35px;
+    background-color:cornflowerblue;
+    transition: all .6s ease;
+}
+    .btn:hover{
+    cursor:pointer;
+    background-color:dodgerblue ;
+    box-shadow: 0 0 50px lightskyblue;
+    font-weight:bold; 
+
+}
+

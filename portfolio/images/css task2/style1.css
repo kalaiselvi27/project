@@ -1,0 +1,11 @@
+*{
+    background color:red;
+}
+p::first-lign{
+    font size:16;
+    font align:arial;
+}
+.ca{
+    color:rgb;
+    text align:center;
+}
